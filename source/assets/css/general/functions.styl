@@ -1,0 +1,20 @@
+-px2rem(size, base = $font-size--body) {
+	round(unit((size / base), rem), 4)
+}
+
+-px2em(size, base = $font-size--body) {
+	round(unit((size / base), em), 4)
+}
+
+-rems(property, sizes, base = $font-size--body){
+	rems = array();
+	pixs = array();
+
+	for prop, i in sizes {
+		pixs[i] = round(unit((prop), px), 4)
+		rems[i] = round(unit((prop / base), rem), 4)
+	}
+
+	{property}: pixs;
+	{property}: rems;
+}

@@ -1,0 +1,24 @@
+{
+	"someData": [
+		{
+			"name": "zero",
+			"data": 0,
+			"true": false
+		},
+		{
+			"name": "one",
+			"data": 1,
+			"true": false
+		},
+		{
+			"name": "two",
+			"data": 2,
+			"true": true
+		},
+		{
+			"name": "three",
+			"data": 3,
+			"true": true
+		}
+	]
+}

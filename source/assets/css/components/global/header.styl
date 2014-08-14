@@ -1,0 +1,31 @@
+.header {
+	clear:both;
+
+	center(90%);
+	+from(4){
+		center(85%);
+	}
+	+from(5){
+		center(80%);
+	}
+	transition: max-width .5s;
+}
+
+.header__logo,
+.header__menu {
+	col(1/2);
+}
+.header__logo {
+	font-weight: 700;
+}
+.header__menu {
+	text-align: right;
+}
+.header__logo,
+.header__menu__link {
+	-rems('padding', 15 7);
+	display: inline-block;
+	&:hover {
+		color: $text-black;
+	}
+}

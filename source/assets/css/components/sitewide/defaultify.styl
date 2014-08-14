@@ -1,0 +1,43 @@
+// General document styling.
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: -px2em(16px);
+}
+
+body {
+	position: relative;
+	line-height: 1.5;
+	font-weight: normal;
+	font-style: normal;
+	color: $text-grey;
+	font-family: sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,ol {
+	font-size: $font-size--m;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-rendering: optimizeLegibility;
+}
+
+img {
+	width: 100%;
+	height: auto;
+	-ms-interpolation-mode: bicubic;
+}
+
+a {
+	outline: none;
+	color: $text-grey;
+	text-decoration: none;
+}
+
+ul, ol {
+	list-style: none;
+}

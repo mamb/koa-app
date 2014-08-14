@@ -1,0 +1,20 @@
+<script type="text/javascript">
+	(function(){
+		getElements = function() {
+			var d = document;
+			var js = d.createElement("script");
+			js.src = '/assets/js/app.js';
+
+			var css = d.createElement('link');
+			css.href = '/assets/css/app.css';
+			css.setAttribute('rel', 'stylesheet');
+
+			d.head.appendChild(js);
+			d.head.appendChild(css);
+		}
+
+		if (window.addEventListener) window.addEventListener("load", getElements, false);
+		else if (window.attachEvent) window.attachEvent("onload", getElements);
+		else window.onload = getElements;
+	})();
+</script>

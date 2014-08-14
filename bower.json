@@ -1,0 +1,10 @@
+{
+	"name": "mamb",
+	"dependencies": {
+		"angular": "~1.2.0",
+		"angular-route": "~1.2.0",
+		"moment": "~2.7.0",
+		"requirejs": "~2.1.9",
+		"almond": "~0.2.9"
+	}
+}
